@@ -1,12 +1,13 @@
 module github.com/0xPolygon/supernets2-data-availability
 
-go 1.19
+go 1.24
 
 require (
 	github.com/0xPolygon/supernets2-node v0.0.0-20230707112214-f7e23fc2f1c4
 	github.com/ethereum/go-ethereum v1.12.0
 	github.com/gobuffalo/packr/v2 v2.8.3
 	github.com/gorilla/websocket v1.5.0
+	github.com/jackc/pgconn v1.14.0
 	github.com/jackc/pgx/v4 v4.18.1
 	github.com/miguelmota/go-solidity-sha3 v0.1.1
 	github.com/mitchellh/mapstructure v1.5.0
@@ -59,7 +60,6 @@ require (
 	github.com/huin/goupnp v1.0.3 // indirect
 	github.com/iden3/go-iden3-crypto v0.0.15 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
-	github.com/jackc/pgconn v1.14.0 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgproto3/v2 v2.3.2 // indirect
@@ -68,7 +68,7 @@ require (
 	github.com/jackc/puddle v1.3.0 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
 	github.com/karrick/godirwalk v1.17.0 // indirect
-	github.com/klauspost/compress v1.15.15 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/logrusorgru/aurora v0.0.0-20181002194514-a7b3b318ed4e // indirect
